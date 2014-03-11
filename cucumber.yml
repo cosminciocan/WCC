@@ -1,0 +1,8 @@
+default: --format pretty --tags ~@member --tags ~@manual --tags ~@wip --tags ~@not_started --tags ~@failing
+admin_site: --format pretty --tags @admin_site --tags ~@member --tags ~@manual --tags ~@wip --tags ~@not_started --tags ~@failing -f junit -o <%= ENV['JUNIT_OUTPUT'] %>
+member_site: -f pretty -t ~@admin_site -t ~@member -t ~@manual -t ~@wip -t ~@not_started -t ~@failing -f junit -o <%= ENV['JUNIT_OUTPUT'] %>
+member_site_ci: -f pretty -t ~@requires_saml -t ~@admin_site -t ~@member -t ~@manual -t ~@wip -t ~@not_started -t ~@failing -f junit -o <%= ENV['JUNIT_OUTPUT'] %>
+complete_no_failing: -f pretty -t @complete -t ~@failing -t ~@flakey -t ~@wip -t ~@not_started
+failing: -f pretty -t @failing -t ~@wip -t ~@not_started
+saml: -f pretty -t @saml_sso -t ~@wip -t ~@not_started
+specific: -f pretty --tags <%= ENV['TAGS'] %>

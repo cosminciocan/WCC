@@ -1,0 +1,1 @@
+This directory is for storing temporary files and try-outs.
