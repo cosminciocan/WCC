@@ -10,3 +10,12 @@ Alpha:
   MEMBER_SITE_PASSWORD: london
   ADMIN_USERNAME: "wccadm"
   ADMIN_PASSWORD: "!8Tt4125W82cD"
+
+UAT:
+  <<: *execution_defaults
+  ADMIN_BASE_URL: http://wcc:london@uat.westminster.gov.uk/user
+  MEMBER_SITE_URL: http://wcc:london@uat.westminster.gov.uk
+  MEMBER_SITE_USER: wcc
+  MEMBER_SITE_PASSWORD: london
+  ADMIN_USERNAME: "wccadm"
+  ADMIN_PASSWORD: "!8Tt4125W82cD"
