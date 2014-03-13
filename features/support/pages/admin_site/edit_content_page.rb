@@ -8,6 +8,7 @@ class EditContentPage
   text_field(:search_title, :id => 'edit-title')
   button(:apply_search, :id => 'edit-submit-admin-views-node')
   link(:edit_content, :xpath => '//td[8]/a')
+  link(:delete_content, :xpath => '//a[2]')
 
   #S.A. Edit
   link(:sa_edit_tab, :xpath => '//li[3]/a')
