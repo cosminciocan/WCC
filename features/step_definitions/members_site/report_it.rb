@@ -17,9 +17,24 @@ When(/^I submit a Roads and pavements report$/) do
   sleep 1
   @current_page.inside_lane_element.click
   @current_page.preferred_contact_none_element.click
+  @first_name = "First Name Test"
+  @last_name = "Last Name Test"
+  @your_address = "Address Test"
+  @city_town = "City Test"
+  @postal_code = "Postal Code Test"
+  @email = "email@example.com"
+  if on_page(ReportItPage).browser.text.include?("First Name")
+    @current_page.first_name = @first_name
+    @current_page.last_name = @last_name
+    @current_page.your_address = @your_address
+    @current_page.city_town = @city_town
+    @current_page.postal_code = @postal_code
+    @current_page.email = @email
+  end
   @current_page.submit_button
+
 end
 
 Then(/^I should receive a confirmation message$/) do
-  on_page(ReportItPage).browser.text.include?("Thanks for reporting!").should == true
+    on_page(ReportItPage).browser.text.include?("Thanks for reporting!").should == true
 end

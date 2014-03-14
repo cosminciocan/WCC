@@ -20,6 +20,7 @@ class SmartAnswerPage
     self.select_first_option
     self.next_button
     self.second_question_title.include?("Second question (Date question)").should == true
+    #self.second_question_date_picker_element.click
     browser.text_field(:class => 'wcc_sa_date hasDatepicker').click
     self.date_pick
     self.next_button
