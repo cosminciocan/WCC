@@ -23,7 +23,7 @@ class ReportItPage
   text_field(:phone, :id => 'edit-submitted-your-details-your-details-wrapper-phone')
 
   button(:next_button, :class => 'button next fullw-mobile ')
-  button(:submit_report, :id => 'edit-submit')
+  button(:submit_report, :id => 'edit-submit', :index => 0)
 
 
   def submit_damage_to_roads
@@ -38,30 +38,29 @@ class ReportItPage
     @email = "email@example.com"
     @phone = "01234567890"
 
-#    browser.wait_until(self.damage_to_road?)
-    sleep 2
-    puts "Select Damage to road"
+    browser.wait_until { self.damage_to_road_element.exists? }
+    puts "Selecting Damage to road"
     self.damage_to_road_element.click
-    puts "Select still report the issue"
+    puts "Selecting Still report the issue"
     self.still_report_issue
-    puts "Enter street name"
+    puts "Entering street name"
     self.address_of_problem_street = @street_name
-    puts "Enter street details"
+    puts "Entering street details"
     self.address_of_problem_details = @street_details
-    puts "Enter probmel descriptiuon"
+    puts "Entering probmel descriptiuon"
     self.describe_problem = @describe_problem
-    puts "Press next button"
+    puts "Pressing next button"
     self.next_button
     sleep 1
-    puts "Scroll the page up"
+    puts "Scrolling the page up"
     browser.div(:class => 'sp-head-wrap').send_keys :home
     sleep 1
-    puts "Select Inside lane"
+    puts "Selecting Inside lane"
     self.inside_lane_element.click
     puts "selecting preferred contact"
     self.preferred_contact_none_element.click
     if browser.text.include?("First Name")
-      puts "If action triggered"
+      puts "Completing cotact details"
       self.first_name = @first_name
       self.last_name = @last_name
       self.your_address = @your_address
@@ -70,7 +69,7 @@ class ReportItPage
       self.email = @email
       self.phone = @phone
     end
-    puts "Submit button"
+    puts "Submiting report"
     self.submit_report
   end
 
