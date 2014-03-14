@@ -10,5 +10,6 @@ When(/^I submit a Roads and pavements report$/) do
 end
 
 Then(/^I should receive a confirmation message$/) do
+
     on_page(ReportItPage).browser.text.include?("Thanks for reporting!").should == true
 end

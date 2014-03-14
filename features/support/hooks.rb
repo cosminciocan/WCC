@@ -6,6 +6,8 @@ case ENV['browser']
   when 'ie'
     browser = Watir::Browser.new :ie
   else
+    profile = Selenium::WebDriver::Firefox::Profile.new
+    profile.native_events = false
     browser = Watir::Browser.new :firefox#, :profile => 'Automation'
 end
 
@@ -14,6 +16,7 @@ Before('~@headless') do
   @browser.cookies.clear
  # @browser.window.move_to(-1000, -1100)
   @browser.window.resize_to(1350, 720)
+  @browser.driver.manage.timeouts.implicit_wait = 15
 end
 
 After('@delete_cookies') do
