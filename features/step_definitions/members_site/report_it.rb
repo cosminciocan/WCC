@@ -14,6 +14,7 @@ When(/^I submit a Roads and pavements report$/) do
   @current_page.next_button
   sleep 1
   on_page(ReportItPage).browser.div(:class => 'sp-head-wrap').send_keys :home
+  sleep 1
   @current_page.inside_lane_element.click
   @current_page.preferred_contact_none_element.click
   @current_page.submit_button
