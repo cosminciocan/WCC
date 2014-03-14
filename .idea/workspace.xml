@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157d122d-6c04-4351-b222-a02bb0072c1e" name="Default" comment="Project Updated">
+      <change type="DELETED" beforePath="D:\WORK\Westminster\Automation\WCC\.idea\intel.iml" afterPath="" />
       <change type="DELETED" beforePath="D:\WORK\Westminster\Automation\WCC\results\screenshots\39371340.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" afterPath="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intel.iws" />
@@ -29,7 +31,7 @@
     <file path="/users.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394461655596" ignored="false" />
     <file path="/create_smart_answer_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394531673313" ignored="false" />
     <file path="/create_content_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394632589676" ignored="false" />
-    <file path="/Dummy.txt" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394797039008" ignored="false" />
+    <file path="/Dummy.txt" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394797530611" ignored="false" />
     <file path="/creating_content.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394711465666" ignored="false" />
     <file path="/smart_answer_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394791828853" ignored="false" />
     <file path="/clear_cache_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394616855135" ignored="false" />
@@ -37,8 +39,8 @@
     <file path="/smart_answers.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394711850619" ignored="false" />
     <file path="/create_content.feature" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394718341164" ignored="false" />
     <file path="/report_it.feature" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394788981592" ignored="false" />
-    <file path="/report_it_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394795110068" ignored="false" />
-    <file path="/report_it.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394797248949" ignored="false" />
+    <file path="/report_it_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394799944985" ignored="false" />
+    <file path="/report_it.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394798988784" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,19 +91,19 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="report_it.feature" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="report_it.feature" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="6" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+                    <state line="6" column="51" selection-start="322" selection-end="322" vertical-scroll-proportion="0.3119266">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="smart_answer_page.rb" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="smart_answer_page.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="24" column="0" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.48012233">
+                    <state line="28" column="47" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -150,7 +152,7 @@
               <file leaf-file-name="report_it.rb" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="12" column="60" selection-start="426" selection-end="426" vertical-scroll-proportion="0.4789272">
+                    <state line="14" column="41" selection-start="367" selection-end="367" vertical-scroll-proportion="0.6091954">
                       <folding />
                     </state>
                   </provider>
@@ -210,7 +212,7 @@
           <file leaf-file-name="report_it_page.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="7" selection-start="583" selection-end="583" vertical-scroll-proportion="0.2607362">
+                <state line="72" column="22" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.7653374">
                   <folding />
                 </state>
               </provider>
@@ -249,10 +251,10 @@
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/features/members_site/report_it.feature" />
         <option value="$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
         <option value="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
         <option value="$PROJECT_DIR$/features/members_site/pre_application_advice.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
       </list>
     </option>
   </component>
@@ -807,10 +809,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Cucumber.report_it" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.report_it" />
         <item index="2" class="java.lang.String" itemvalue="Cucumber.report_it" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements, without contact details" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.report_it" />
       </list>
     </recent_temporary>
   </component>
@@ -866,7 +868,11 @@
       <created>1394797040163</created>
       <updated>1394797040163</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Debugg">
+      <created>1394797534598</created>
+      <updated>1394797534598</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -935,7 +941,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debugg" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -954,6 +960,7 @@
     <MESSAGE value="Fixed Report It" />
     <MESSAGE value="Updated ReportIT" />
     <MESSAGE value="Debug" />
+    <MESSAGE value="Debugg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1001,27 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/pre-application_advice.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="79" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/search_funtionality.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/admin_site/create_content.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="30" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
@@ -1043,23 +1029,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/pre-application_advice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="79" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.48012233">
+        <state line="28" column="47" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/search_funtionality.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="322" selection-end="322" vertical-scroll-proportion="0.3119266">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="583" selection-end="583" vertical-scroll-proportion="0.2607362">
+        <state line="72" column="22" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.7653374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="426" selection-end="426" vertical-scroll-proportion="0.4789272">
+        <state line="14" column="41" selection-start="367" selection-end="367" vertical-scroll-proportion="0.6091954">
           <folding />
         </state>
       </provider>
