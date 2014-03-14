@@ -4,8 +4,8 @@ class Homepage
 
   page_url "#{EnvConfig['MEMBER_SITE_URL']}"
 
-  text_field(:search_field, :xpath => '//div[2]/div/div/div/form/div/div/div/input')
-  button(:search_button, :xpath => '//div[2]/div/div/div/form/div/div/label/input')
+  text_field(:search_field, :id => 'edit-search-block-form--2')
+  button(:search_button, :id => 'edit-submit')
   div(:autocomplete_suggestion_box, :class => 'apachesolr_autocomplete suggestion')
 
 

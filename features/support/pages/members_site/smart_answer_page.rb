@@ -12,7 +12,8 @@ class SmartAnswerPage
   span(:second_question_title, :xpath => '//li[2]/h3/span[2]')
   text_field(:second_question_date_picker, :class => 'wcc_sa_date hasDatepicker')
   div(:result_title, :class => 'wcc_sa_result')
-  link(:date_pick, :xpath => '//td[7]/a')
+  link(:date_pick, :css => 'a.ui-state-default.ui-state-hover')
+
 
   def complete_smart_answer
     self.first_question_title.include?("First question").should == true

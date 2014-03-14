@@ -13,7 +13,7 @@ class EditContentPage
   #S.A. Edit
   link(:sa_edit_tab, :xpath => '//li[3]/a')
   text_field(:first_question_title, :xpath => '//input')
-  link(:add_new_question, :href => '#add-answer')
+  link(:add_new_option, :href => '#add-answer')
   text_field(:first_question_option1, :class => 'wcc_sa_a wcc_sa_input')
   radio_button(:first_question_option1_radio, :xpath => '//li/input')
   text_field(:second_question_title, :xpath => '//div[2]/div/input')
@@ -29,23 +29,23 @@ class EditContentPage
     #Selecting a multiple choice question
     self.sa_edit_tab
     browser.select_list(:class => 'wcc_sa_new_type').options[1].select
-    sleep 1
+    browser.wait_until { self.first_question_title_element.exists? }
     self.first_question_title = "First question"
-    self.add_new_question
-    sleep 1
+    self.add_new_option
+    browser.wait_until { self.first_question_option1_element.exists? }
     self.first_question_option1 = "First question option 1"
     self.select_first_question_option1_radio
-    sleep 1
+    browser.wait_until { browser.text.include?("The selected option does not have a connected node")}
     self.save_smart_answer
     #Selecting a date question
     browser.select_list(:class => 'wcc_sa_new_type').options[2].select
-    sleep 1
+    browser.wait_until { self.second_question_title_element.exists?}
     self.second_question_title = "Second question (Date question)"
     self.select_second_question_option1_radio
     self.save_smart_answer
     #Adding a result
     browser.select_list(:class => 'wcc_sa_new_type').options[3].select
-    sleep 1
+    browser.wait_until { self.result_title_element.exists? }
     self.result_title = "Result Title"
     self.save_smart_answer
     sleep 1

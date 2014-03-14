@@ -3,6 +3,8 @@ class ReportItPage
 
   page_url "#{EnvConfig['MEMBER_SITE_URL']}/report-it"
 
+
+  link(:back_button, :href => '/report-it')
   #Roads and pavements
   link(:roads_and_pavements, :href => '/report-it-roads-and-pavements')
   div(:damage_to_road, :class => 'form-item form-type-radio form-item-submitted-roads-and-pavements-roads-and-pavements-subcategs')
@@ -71,6 +73,11 @@ class ReportItPage
     end
     puts "Submiting report"
     self.submit_report
+  end
+
+  def assert_confimation_message
+    browser.wait_until { self.back_button_element.exists? }
+    browser.text.include?("Thanks for reporting!").should == true
   end
 
 end                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
