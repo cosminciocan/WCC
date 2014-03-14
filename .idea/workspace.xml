@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157d122d-6c04-4351-b222-a02bb0072c1e" name="Default" comment="Project Updated">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/members_site/smart_answers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/admin_site/create_content.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/members_site/report_it.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
       <change type="DELETED" beforePath="D:\WORK\Westminster\Automation\WCC\results\screenshots\39371340.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb" afterPath="$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/admin_site/edit_content_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/admin_site/edit_content_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/members_site/smart_answers.feature" afterPath="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intel.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/config.yml" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394631078579" ignored="false" />
+    <file path="/config.yml" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394788680520" ignored="false" />
     <file path="/Test.feature" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394201785059" ignored="false" />
     <file path="/Homepage.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394203308617" ignored="false" />
     <file path="/General-test.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394203520039" ignored="false" />
@@ -33,12 +34,16 @@
     <file path="/users.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394461655596" ignored="false" />
     <file path="/create_smart_answer_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394531673313" ignored="false" />
     <file path="/create_content_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394632589676" ignored="false" />
-    <file path="/Dummy.txt" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394707107702" ignored="false" />
+    <file path="/Dummy.txt" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394785703534" ignored="false" />
     <file path="/creating_content.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394711465666" ignored="false" />
     <file path="/smart_answer_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394638763393" ignored="false" />
     <file path="/clear_cache_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394616855135" ignored="false" />
     <file path="/edit_content_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394639308277" ignored="false" />
     <file path="/smart_answers.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394711850619" ignored="false" />
+    <file path="/create_content.feature" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394718341164" ignored="false" />
+    <file path="/report_it.feature" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394788981592" ignored="false" />
+    <file path="/report_it_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394788452155" ignored="false" />
+    <file path="/report_it.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394788864199" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,42 +62,33 @@
     <favorites_list name="intel" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50419086">
+    <splitter split-orientation="horizontal" split-proportion="0.4584415">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.54401153">
           <split-first>
             <leaf>
-              <file leaf-file-name="search_functionality.feature" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/features/members_site/search_functionality.feature">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config.yml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="2" column="23" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="smart_answers.feature" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="smart_answers.feature" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/members_site/smart_answers.feature">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="17" column="48" selection-start="802" selection-end="802" vertical-scroll-proportion="0.8626866">
+                    <state line="15" column="71" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="browsing.feature" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
+              <file leaf-file-name="create_content.feature" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/features/admin_site/create_content.feature">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                    <state line="6" column="4" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="report_it.feature" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="6" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.29310346">
                       <folding />
                     </state>
                   </provider>
@@ -105,25 +101,18 @@
               <file leaf-file-name="pre-application_advice.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/pre-application_advice.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="8" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+                    <state line="14" column="70" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="creating_content.rb" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="creating_content.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="3" column="88" selection-start="242" selection-end="242" vertical-scroll-proportion="0.18085106">
+                    <state line="30" column="48" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="39144192.png" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/results/screenshots/39144192.png">
-                  <provider selected="true" editor-type-id="images">
-                    <state />
                   </provider>
                 </entry>
               </file>
@@ -139,7 +128,16 @@
               <file leaf-file-name="smart_answers.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/smart_answers.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="28" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0">
+                    <state line="9" column="91" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="report_it.rb" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="16" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.964539">
                       <folding />
                     </state>
                   </provider>
@@ -151,19 +149,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="smart_answer_page.rb" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="12" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.7127329">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="clear_cache_page.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/clear_cache_page.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="40" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+                <state line="0" column="70" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -172,7 +161,7 @@
           <file leaf-file-name="create_content_page.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+                <state line="3" column="43" selection-start="58" selection-end="89" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -190,7 +179,16 @@
           <file leaf-file-name="admin_login.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/admin_login.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="54" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+                <state line="10" column="32" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="report_it_page.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="18" selection-start="413" selection-end="424" vertical-scroll-proportion="0.23466258">
                   <folding />
                 </state>
               </provider>
@@ -217,22 +215,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/members_site/pre_application_advice.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/members_site/pre-application_advice.rb" />
-        <option value="$PROJECT_DIR$/features/support/helpers/login.rb" />
-        <option value="$PROJECT_DIR$/features/support/data/users.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/admin_site/create_smart_answer_page.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/login.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/admin_site/creating_smart_anwest.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/admin_site/admin_login.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/admin_site/clear_cache_page.rb" />
-        <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/admin_site/edit_content_page.rb" />
-        <option value="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/members_site/smart_answers.rb" />
+        <option value="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
+        <option value="$PROJECT_DIR$/features/admin_site/create_content.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
+        <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" />
+        <option value="$PROJECT_DIR$/features/members_site/report_it.feature" />
       </list>
     </option>
   </component>
@@ -249,7 +247,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -311,24 +309,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="results" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="results" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screenshots" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,6 +476,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -504,66 +502,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Cucumber.smart_answers">
-    <configuration default="false" name="smart_answers" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="intel" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/features/step_definitions/members_site" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/step_definitions/members_site/smart_answers.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Deleting the created Smart Answer" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="intel" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="ANSICON" value="" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Deleting the created Smart Answer$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.Basic Report It flow - Roads and pavements">
     <configuration default="false" name="Simple flow on a Smart Answer form with a multiple choice question, a date question and a result" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="intel" />
@@ -654,6 +600,74 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Basic Report It flow" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="intel" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/members_site/report_it.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Basic Report It flow$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Basic Report It flow - Roads and pavements" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="intel" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/members_site/report_it.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Basic Report It flow \- Roads and pavements$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -762,19 +776,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.smart_answers" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Deleting the created Smart Answer" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.Simple flow on a Smart Answer form with a multiple choice question, a date question and a result" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Simple flow on a Smart Answer form with a multiple choice question, a date question and a result" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Simple flow on a Smart Answer form with a multiple choice question, a date question and a result" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
       </list>
     </recent_temporary>
   </component>
@@ -810,18 +824,22 @@
       <created>1394633760544</created>
       <updated>1394633760544</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project Updated">
+      <created>1394717615743</created>
+      <updated>1394717615743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-320" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17609392" sideWeight="0.7494577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122732125" sideWeight="0.7494577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2505423" sideWeight="0.12540022" order="7" side_tool="true" content_ui="tabs" />
@@ -899,49 +917,54 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/login.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="30" column="48" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/pre_application_advice.feature">
+    <entry file="file://$PROJECT_DIR$/features/admin_site/create_content.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="59" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.3313433">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+        <state line="6" column="4" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/members_site/search_functionality.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.7127329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/smart_answers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="91" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/pre-application_advice.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="70" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/clear_cache_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="70" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/admin_login.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+        <state line="10" column="32" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -955,45 +978,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/smart_answers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/screenshots/39144192.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/smart_answer_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.7127329">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/screenshots/37925520.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="88" selection-start="242" selection-end="242" vertical-scroll-proportion="0.18085106">
+        <state line="3" column="43" selection-start="58" selection-end="89" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/members_site/smart_answers.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="802" selection-end="802" vertical-scroll-proportion="0.8626866">
+        <state line="15" column="71" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="413" selection-end="424" vertical-scroll-proportion="0.23466258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="112" selection-end="112" vertical-scroll-proportion="0.1954023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.964539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.29310346">
           <folding />
         </state>
       </provider>

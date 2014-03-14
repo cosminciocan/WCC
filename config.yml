@@ -4,8 +4,8 @@ defaults: &execution_defaults
 
 Alpha:
   <<: *execution_defaults
-  ADMIN_BASE_URL: http://wcc:london@alpha.westminster.gov.uk/user
-  MEMBER_SITE_URL: http://wcc:london@alpha.westminster.gov.uk
+  ADMIN_BASE_URL: https://wcc:london@alpha.westminster.gov.uk/user
+  MEMBER_SITE_URL: https://wcc:london@alpha.westminster.gov.uk
   MEMBER_SITE_USER: wcc
   MEMBER_SITE_PASSWORD: london
   ADMIN_USERNAME: "wccadm"
