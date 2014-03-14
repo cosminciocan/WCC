@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="157d122d-6c04-4351-b222-a02bb0072c1e" name="Default" comment="Project Updated">
       <change type="DELETED" beforePath="D:\WORK\Westminster\Automation\WCC\results\screenshots\39371340.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/members_site/pre_application_advice.feature" afterPath="$PROJECT_DIR$/features/members_site/pre_application_advice.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" afterPath="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/members_site/smart_answers.feature" afterPath="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intel.iws" />
@@ -31,7 +29,7 @@
     <file path="/users.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394461655596" ignored="false" />
     <file path="/create_smart_answer_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394531673313" ignored="false" />
     <file path="/create_content_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394632589676" ignored="false" />
-    <file path="/Dummy.txt" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394795749967" ignored="false" />
+    <file path="/Dummy.txt" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394797039008" ignored="false" />
     <file path="/creating_content.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394711465666" ignored="false" />
     <file path="/smart_answer_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394791828853" ignored="false" />
     <file path="/clear_cache_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394616855135" ignored="false" />
@@ -40,7 +38,7 @@
     <file path="/create_content.feature" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394718341164" ignored="false" />
     <file path="/report_it.feature" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394788981592" ignored="false" />
     <file path="/report_it_page.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394795110068" ignored="false" />
-    <file path="/report_it.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394797026373" ignored="false" />
+    <file path="/report_it.rb" changelist="157d122d-6c04-4351-b222-a02bb0072c1e" time="1394797248949" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +150,7 @@
               <file leaf-file-name="report_it.rb" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="43" column="21" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7394636">
+                    <state line="12" column="60" selection-start="426" selection-end="426" vertical-scroll-proportion="0.4789272">
                       <folding />
                     </state>
                   </provider>
@@ -864,7 +862,11 @@
       <created>1394795752806</created>
       <updated>1394795752806</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Debug">
+      <created>1394797040163</created>
+      <updated>1394797040163</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -933,7 +935,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ReportIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -951,6 +953,7 @@
     <MESSAGE value="Added report it feature" />
     <MESSAGE value="Fixed Report It" />
     <MESSAGE value="Updated ReportIT" />
+    <MESSAGE value="Debug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1056,7 +1059,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="21" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7394636">
+        <state line="12" column="60" selection-start="426" selection-end="426" vertical-scroll-proportion="0.4789272">
           <folding />
         </state>
       </provider>

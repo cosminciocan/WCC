@@ -8,6 +8,7 @@ end
 When(/^I submit a Roads and pavements report$/) do
   puts "Select Damage to road"
   on_page(ReportItPage).damage_to_road_element.click
+  sleep 3
   puts "Select still report the issue"
   @current_page.still_report_issue
   puts "Enter street name"
