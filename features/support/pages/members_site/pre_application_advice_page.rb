@@ -8,6 +8,7 @@ class PreApplicationAdvicePage
   button(:find_address_button, :id => 'postcode-lookup-button')
   label(:select_address_label, :id => 'postcode-address-list')
   button(:next_step_button, :id => 'file_upload_step_submit')
+  div(:error_message_box, :class => 'messages error icon-error')
 
   #Second step Page
   text_field(:describe_field, :id => 'edit-description')
@@ -22,17 +23,22 @@ class PreApplicationAdvicePage
   radio_button(:not_same_details, :id => 'edit-billing-details-q-n')
     #Contact details
   text_field(:contact_name, :id => 'edit-contact-name')
-  text_field(:contact_postcode , :id => 'edit-contact-postcode')
-  text_field(:contact_address , :id => 'edit-contact-address1')
-  text_field(:contact_phone , :id => 'edit-contact-phone')
-  text_field(:contact_email , :id => 'edit-contact-email')
+  text_field(:contact_postcode, :id => 'edit-contact-postcode')
+  text_field(:contact_address, :id => 'edit-contact-address1')
+  text_field(:contact_phone, :id => 'edit-contact-phone')
+  text_field(:contact_email, :id => 'edit-contact-email')
     #Billing details
-  text_field(:billing_name , :id => 'edit-agent-billing-details-agent-billing-name')
-  text_field(:billing_address , :id => 'edit-agent-billing-details-agent-billing-address1')
-  text_field(:billing_postcode , :id => 'edit-agent-billing-details-agent-billing-postcode')
-  text_field(:billing_phone , :id => 'edit-agent-billing-details-agent-billing-phone')
-  text_field(:billing_email , :id => 'edit-agent-billing-details-agent-billing-email')
-
+  text_field(:billing_name, :id => 'edit-agent-billing-details-agent-billing-name')
+  text_field(:billing_address, :id => 'edit-agent-billing-details-agent-billing-address1')
+  text_field(:billing_postcode, :id => 'edit-agent-billing-details-agent-billing-postcode')
+  text_field(:billing_phone, :id => 'edit-agent-billing-details-agent-billing-phone')
+  text_field(:billing_email, :id => 'edit-agent-billing-details-agent-billing-email')
+    #Client billing details
+  text_field(:client_billing_name, :id => 'edit-client-billing-details-client-billing-name')
+  text_field(:client_billing_address, :id => 'edit-client-billing-details-client-billing-address1')
+  text_field(:client_billing_postcode, :id => 'edit-client-billing-details-client-billing-postcode')
+  text_field(:client_billing_phone_number, :id => 'edit-client-billing-details-client-billing-phone')
+  text_field(:client_billing_email, :id => 'edit-client-billing-details-client-billing-email')
 
 
   def select_address
@@ -53,7 +59,15 @@ class PreApplicationAdvicePage
     self.billing_address = "TEST Billing Address"
     self.billing_postcode= "TEST Billing Postcode"
     self.billing_phone = "TEST Billing Phone"
-    self.billing_email = "TEST Billing Email"
+    self.billing_email = "test@test.test"
+  end
+
+  def set_client_details
+    self.client_billing_name = "TEST Client Billing Name"
+    self.client_billing_address = "TEST Client Billing Address"
+    self.client_billing_postcode = "TEST Client Billing Postcode"
+    self.client_billing_phone_number = "TEST Client Billing Phone"
+    self.client_billing_email = "test@test.test"
   end
 
 end
