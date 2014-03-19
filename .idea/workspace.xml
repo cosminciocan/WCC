@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" name="Default" comment="Fixed Report It">
       <change type="DELETED" beforePath="D:\WORK\Westminster\Automation\WCC\results\screenshots\39371340.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/members_site/report_it.feature" afterPath="$PROJECT_DIR$/features/members_site/report_it.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intel.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395231376977" ignored="false" />
+    <file path="/Dummy.txt" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395232391746" ignored="false" />
     <file path="/report_it_page.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395232068747" ignored="false" />
     <file path="/homepage.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1394808785232" ignored="false" />
     <file path="/search_funtionality.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1394804481711" ignored="false" />
@@ -729,7 +728,11 @@
       <created>1395231382778</created>
       <updated>1395231382778</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed Report It">
+      <created>1395232395367</created>
+      <updated>1395232395367</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -798,7 +801,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Report It" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -813,10 +816,10 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Update project" />
-    <MESSAGE value="Fixed Report It" />
     <MESSAGE value="Added more tests for pre-app" />
     <MESSAGE value="Updated project" />
     <MESSAGE value="Done some refactoring" />
+    <MESSAGE value="Fixed Report It" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
