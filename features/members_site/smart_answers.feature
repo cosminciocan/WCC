@@ -1,8 +1,8 @@
 Feature: This feature contains tests involving the Smart Answers functionality
 
-  Background: Verify if a test smart answer form is present, and if not, create one
+  Background: Verify if a test smart answer form exists, and if not, create one
     Given I access the homepage
-    Then I check if a test smart answer is created, and if not, I create one
+    Then I check if a test "Standard Smart Answer" is created, and if not, I create one
 
   Scenario: Simple flow on a Smart Answer form with a multiple choice question, a date question and a result
      Given I access the homepage
@@ -12,4 +12,4 @@ Feature: This feature contains tests involving the Smart Answers functionality
 
   Scenario: Deleting the created Smart Answer
      Given I login with valid Administrator user
-     Then I delete the created Smart Answer
+     Then I delete the created content

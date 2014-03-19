@@ -1,9 +1,8 @@
-class SmartAnswerPage
+class CreatedContentPage
   include PageObject
 
 
-  page_url("#{EnvConfig['MEMBER_SITE_URL']}/smart-answer-title-test")
-
+  page_url "#{EnvConfig['MEMBER_SITE_URL']}/automation-title-test"
 
   span(:first_question_title, :class => 'wcc_sa_title')
   label(:first_question_option1_title, :xpath => '//li/label')

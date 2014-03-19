@@ -16,7 +16,7 @@ Before('~@headless') do
   @browser.cookies.clear
  # @browser.window.move_to(-1000, -1100)
   @browser.window.resize_to(1350, 720)
-  @browser.driver.manage.timeouts.implicit_wait = 15
+  @browser.driver.manage.timeouts.implicit_wait = 5
 end
 
 After('@delete_cookies') do

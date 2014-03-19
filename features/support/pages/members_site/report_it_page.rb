@@ -76,8 +76,8 @@ class ReportItPage
   end
 
   def assert_confimation_message
-    #browser.wait_until { self.back_button_element.exists? }
-    sleep 5
+    sleep 2
+    browser.wait_until { self.back_button_element.exists? }
     browser.text.include?("Thanks for reporting!").should == true
   end
 
