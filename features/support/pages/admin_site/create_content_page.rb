@@ -13,7 +13,6 @@ class CreateContentPage
   text_field(:title_field, :id => 'edit-title')
   select_list(:sa_type, :id => 'edit-wcc-sa-type-und')
   text_field(:body_field, :id => 'edit-body-und-0-value')
-  #button(:publishing_options, :text => '//li[7]/a/span')
   link(:publishing_options, :text => /Publishing options/i)
   checkbox(:published, :id => 'edit-status')
   checkbox(:sticky_attribute, :id => 'edit-sticky')
@@ -22,7 +21,7 @@ class CreateContentPage
 
   #S.A. Edit
   link(:sa_edit_tab, :text => 'S.A. Edit')
-  text_field(:first_question_title, :xpath => '//input')
+  text_field(:first_question_title, :class => 'wcc_sa_t wcc_sa_input')
   link(:add_new_option, :href => '#add-answer')
   text_field(:first_question_option1, :class => 'wcc_sa_a wcc_sa_input')
   radio_button(:first_question_option1_radio, :xpath => '//li/input')

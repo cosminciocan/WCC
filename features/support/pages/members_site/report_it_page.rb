@@ -7,7 +7,10 @@ class ReportItPage
   link(:back_button, :href => '/report-it')
   #Roads and pavements
   link(:roads_and_pavements, :href => '/report-it-roads-and-pavements')
-  div(:damage_to_road, :class => 'form-item form-type-radio form-item-submitted-roads-and-pavements-roads-and-pavements-subcategs')
+  #div(:damage_to_road, :text => /Damage to the road/i)
+
+  button(:damage_to_road, :id => 'edit-submitted-recipient-1')
+
   button(:still_report_issue, :class => 'button road-report-submit fullw-mobile')
   div(:inside_lane, :class => 'form-item form-type-radio form-item-submitted-roads-and-pavements-extra-information-where-is-it-where-on-the-road-surface-is-the-problem')
   div(:preferred_contact_none, :class => 'form-item form-type-radio form-item-submitted-your-details-preferred-contact-list')
@@ -40,9 +43,11 @@ class ReportItPage
     @email = "email@example.com"
     @phone = "01234567890"
 
-    browser.wait_until { self.damage_to_road_element.exists? }
+   # browser.wait_until { self.damage_to_road_element.exists? }
+    sleep 2
     puts "Selecting Damage to road"
-    self.damage_to_road_element.click
+
+    self.damage_to_road
     puts "Selecting Still report the issue"
     self.still_report_issue
     puts "Entering street name"

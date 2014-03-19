@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" name="Default" comment="Fixed Report It">
       <change type="DELETED" beforePath="D:\WORK\Westminster\Automation\WCC\results\screenshots\39371340.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/members_site/report_it.feature" afterPath="$PROJECT_DIR$/features/members_site/report_it.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intel.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395232391746" ignored="false" />
-    <file path="/report_it_page.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395232068747" ignored="false" />
+    <file path="/Dummy.txt" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395232413390" ignored="false" />
+    <file path="/report_it_page.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395234673809" ignored="false" />
     <file path="/homepage.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1394808785232" ignored="false" />
     <file path="/search_funtionality.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1394804481711" ignored="false" />
     <file path="/report_it.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1394810644745" ignored="false" />
@@ -19,7 +22,7 @@
     <file path="/pre-application_advice.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395048453032" ignored="false" />
     <file path="/create_content.feature" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395220070879" ignored="false" />
     <file path="/creating_content.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395226666988" ignored="false" />
-    <file path="/create_content_page.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395219173592" ignored="false" />
+    <file path="/create_content_page.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395236174918" ignored="false" />
     <file path="/newsfeed.feature" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395220095064" ignored="false" />
     <file path="/smart_answers.feature" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395226751696" ignored="false" />
     <file path="/newsfeed.rb" changelist="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" time="1395156623705" ignored="false" />
@@ -53,7 +56,7 @@
               <file leaf-file-name="report_it.feature" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="6" column="15" selection-start="294" selection-end="294" vertical-scroll-proportion="0.32692307">
+                    <state line="6" column="42" selection-start="322" selection-end="322" vertical-scroll-proportion="0.32692307">
                       <folding />
                     </state>
                   </provider>
@@ -68,10 +71,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="creating_content.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb">
+              <file leaf-file-name="smart_answers.feature" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/features/members_site/smart_answers.feature">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="38" column="0" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
+                    <state line="9" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -81,10 +84,19 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="report_it.rb" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="report_it.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="6" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.33333334">
+                    <state line="6" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="creating_content.rb" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="27" column="76" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.5555556">
                       <folding />
                     </state>
                   </provider>
@@ -105,10 +117,37 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="report_it_page.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="report_it_page.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="37" selection-start="2489" selection-end="2503" vertical-scroll-proportion="0.70735526">
+                <state line="49" column="0" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="create_content_page.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="63" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="created_content_page.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/created_content_page.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="14" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin_login.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/admin_login.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -142,7 +181,6 @@
         <option value="$PROJECT_DIR$/features/support/pages/members_site/created_content_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/admin_site/edit_content_page.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/members_site/newsfeed.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb" />
         <option value="$PROJECT_DIR$/features/admin_site/create_content.feature" />
         <option value="$PROJECT_DIR$/features/members_site/newsfeed.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb" />
@@ -150,6 +188,7 @@
         <option value="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
         <option value="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
         <option value="$PROJECT_DIR$/features/members_site/report_it.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb" />
       </list>
     </option>
   </component>
@@ -410,7 +449,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../INTEL/Automation SVN/intel" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Cucumber.All features in: members_site">
+  <component name="RunManager" selected="Cucumber.All features in: features">
     <configuration default="false" name="All features in: features" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="intel" />
@@ -465,40 +504,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$/features/members_site" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="newsfeed" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="intel" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="ANSICON" value="" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/members_site/newsfeed.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -569,6 +574,40 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/members_site/report_it.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Basic Report It flow \- Roads and pavements\, without contact details$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="smart_answers" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="intel" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/members_site/smart_answers.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -679,17 +718,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber.All features in: features" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.newsfeed" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.All features in: admin_site" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements, without contact details" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.All features in: admin_site" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements, without contact details" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements, without contact details" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.All features in: features" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.All features in: admin_site" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.newsfeed" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.All features in: features" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.smart_answers" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements, without contact details" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.All features in: members_site" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Basic Report It flow - Roads and pavements, without contact details" />
       </list>
     </recent_temporary>
   </component>
@@ -732,7 +771,11 @@
       <created>1395232395367</created>
       <updated>1395232395367</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Left out reportIt for now">
+      <created>1395232417015</created>
+      <updated>1395232417015</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -801,7 +844,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Report It" />
+    <option name="LAST_COMMIT_MESSAGE" value="Left out reportIt for now" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -820,39 +863,12 @@
     <MESSAGE value="Updated project" />
     <MESSAGE value="Done some refactoring" />
     <MESSAGE value="Fixed Report It" />
+    <MESSAGE value="Left out reportIt for now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/members_site/newsfeed.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="492" selection-end="492" vertical-scroll-proportion="0.68209875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="538" selection-end="553" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/members_site/search_functionality.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -874,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/search_result_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -895,9 +904,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/created_content_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/members_site/pre_application_advice.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="53" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -909,30 +932,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/members_site/smart_answers.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="37" selection-start="2489" selection-end="2503" vertical-scroll-proportion="0.70735526">
+        <state line="9" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/pre_application_advice.feature">
+    <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/admin_login.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="53" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="294" selection-end="294" vertical-scroll-proportion="0.32692307">
+        <state line="6" column="42" selection-start="322" selection-end="322" vertical-scroll-proportion="0.32692307">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/created_content_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.33333334">
+        <state line="1" column="14" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="63" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="76" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.5555556">
           <folding />
         </state>
       </provider>
