@@ -3,9 +3,9 @@ class CreateContentPage
 
   page_url "#{EnvConfig['MEMBER_SITE_URL']}/node/add"
 
-  link(:smart_answer, :href => '/node/add/wcc-sa')
-  link(:quick_answer, :href => '/node/add/quick-answer')
-  link(:news_feed, :href => '/node/add/news')
+  link(:smart_answer, :text => 'Smart Answer')
+  link(:quick_answer, :text => 'Quick Answer')
+  link(:news_feed, :text => 'Newsfeed')
 
   button(:save_content, :id => 'edit-submit')
 

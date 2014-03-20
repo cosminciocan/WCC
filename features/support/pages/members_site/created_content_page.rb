@@ -4,6 +4,10 @@ class CreatedContentPage
 
   page_url "#{EnvConfig['MEMBER_SITE_URL']}/automation-title-test"
 
+
+  div(:page_title, :class => 'sp-head-wrap')
+  div(:page_body, :class => 'content-wrap')
+   #Smart Answer options
   span(:first_question_title, :class => 'wcc_sa_title')
   label(:first_question_option1_title, :xpath => '//li/label')
   radio_button(:first_option, :name => 'response')
@@ -12,6 +16,8 @@ class CreatedContentPage
   text_field(:second_question_date_picker, :class => 'wcc_sa_date hasDatepicker')
   div(:result_title, :class => 'wcc_sa_result')
   link(:date_pick, :css => 'a.ui-state-default.ui-state-hover')
+
+
 
 
   def complete_smart_answer
