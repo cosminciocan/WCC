@@ -11,10 +11,6 @@ class EditContentPage < CreateContentPage
   link(:delete_content, :xpath => '//a[2]')
 
 
-
-
-
-
   def verify_created_content
     self.content_title_yellow_bar.should == $page_title
     self.content_body_text.should == $page_body

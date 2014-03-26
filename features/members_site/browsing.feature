@@ -22,3 +22,16 @@ Feature: Browsing on the site
   Scenario: Verify the time on the homepage
     Given I access the homepage
     Then I should see the correct UK time
+
+#    @not_started
+#  Scenario: Browsing All you need to know.. homepage collections
+#    Given I access the homepage
+#    When I click on the All you need to know about collections
+#    #Then I should be redirected to the collection page
+#
+#  @not_started
+#  Scenario: Check the related links box
+#    Given I access the homepage
+#    And I navigate to the planning collection page
+#    And I select the first collection item
+#    Then I see the other relevant links box

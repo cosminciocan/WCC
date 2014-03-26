@@ -14,8 +14,10 @@ class CreateContentPage
   select_list(:sa_type, :id => 'edit-wcc-sa-type-und')
   text_field(:body_field, :id => 'edit-body-und-0-value')
   link(:publishing_options, :text => /Publishing options/i)
+  select_list(:moderation_state, :id => 'edit-workbench-moderation-state-new')
   checkbox(:published, :id => 'edit-status')
   checkbox(:sticky_attribute, :id => 'edit-sticky')
+  select_list(:collection, :id => 'edit-field-qa-collections-und')
     #Switch to plain text editor
   link(:disable_rich_text, :css => 'a#switch_edit-body-und-0-value')
 
@@ -31,7 +33,7 @@ class CreateContentPage
 
   #Quick Answer page
   div(:content_title_yellow_bar, :class => 'sp-head')
-  div(:content_body_text, :class => 'content sp-content ')
+  div(:content_body_text, :class => 'content sp-content')
 
   $page_title = "AUTOMATION TITLE TEST"
   $page_body = "AUTOMATION BODY TEST"
@@ -39,7 +41,14 @@ class CreateContentPage
 
   def create_content(content_type)
     browser.wait_until { self.disable_rich_text_element.exists?}
-    self.title_field = $page_title
+    case content_type
+      when "Random Named Quick answer" then
+        $page_title = String.random 8
+        self.title_field = $page_title
+       # self.collection == "TEST-CATEGORY"
+      else
+        self.title_field = $page_title
+    end
     self.disable_rich_text_element.focus
     self.disable_rich_text
     self.body_field = $page_body
@@ -61,12 +70,12 @@ class CreateContentPage
 
   def newsfeed
     self.publishing_options
-    self.check_published
+    self.moderation_state == "Published"
     self.check_sticky_attribute
   end
 
   def create_sa_body
-      #Selecting a multiple choice question
+   #Selecting a multiple choice question
     self.sa_edit_tab
     browser.select_list(:class => 'wcc_sa_new_type').options[1].select
     browser.wait_until { self.first_question_title_element.exists? }

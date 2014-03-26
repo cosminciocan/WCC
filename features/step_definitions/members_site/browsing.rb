@@ -1,5 +1,5 @@
 When(/^I access the homepage$/) do
-  visit Homepage
+  visit(Homepage)
 end
 
 Then(/^I see the homepage content$/) do
@@ -8,7 +8,7 @@ end
 
 When(/^I click on the (.*) link$/) do |link|
   on_page(Homepage).browser.wait_until { on_page(Homepage).disclaimer_element.exists? }
-  on_page(Homepage).browser.send_keys :end
+ # on_page(Homepage).browser.send_keys :end
   case link
     when "Disclaimer" then on_page(Homepage).disclaimer
     when "Privacy" then on_page(Homepage).privacy
@@ -31,4 +31,30 @@ end
 
 Then(/^I should see the correct UK time$/) do
   on_page(Homepage).verify_time
+end
+
+
+When(/^I click on the All you need to know about collections$/) do
+  on_page(Homepage).browse_collections
+end
+
+And(/^I navigate to the planning collection page$/) do
+  visit(PlanningCollectionPage)
+end
+
+And(/^I select the first collection item$/) do
+  @second_item = on_page(PlanningCollectionPage).second_collection_element.text
+  @third_item = on_page(PlanningCollectionPage).third_collection_element.text
+  @forth_item = on_page(PlanningCollectionPage).fourth_collection_element.text
+  @fifth_item = on_page(PlanningCollectionPage).fifth_collection_element.text
+  @sixth_item = on_page(PlanningCollectionPage).sixth_collection_element.text
+  on_page(PlanningCollectionPage).first_collection_element.click
+end
+
+Then(/^I see the other relevant links box$/) do
+  on_page(PlanningCollectionPage).first_relevant_link_element.text.should == @second_item
+  on_page(PlanningCollectionPage).second_relevant_link_element.text.should == @third_item
+  on_page(PlanningCollectionPage).third_relevant_link_element.text.should == @forth_item
+  on_page(PlanningCollectionPage).fourth_relevant_link_element.text.should == @fifth_item
+  on_page(PlanningCollectionPage).fifth_relevant_link_element.text.should == @sixth_item
 end
