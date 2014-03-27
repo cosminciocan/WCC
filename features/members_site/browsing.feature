@@ -4,6 +4,21 @@ Feature: Browsing on the site
     When I access the homepage
     Then I see the homepage content
 
+  Scenario: Testing the feedback button availability (pc and mobile)
+    Given I access the homepage
+    Then I check that the desktop version of the Feedback button exists
+    And I resize the window to "600" per "700"
+    And I access the homepage
+    Then I check that the mobile version of the Feedback button exists
+    Then I resize the window to "1350" per "720"
+
+  Scenario: Testing the top navigation bar, for mobile resolutions
+    Given I access the homepage
+    And I resize the window to "600" per "700"
+    Then I expand the top navigation bar
+    And I check the availability of the menu links
+    Then I resize the window to "1350" per "720"
+
   Scenario Outline: Browsing the footer links, and checking if they open in a new window
     Given I access the homepage
     And I click on the <link> link
@@ -11,8 +26,8 @@ Feature: Browsing on the site
 
   Examples:
     |link  | page |
-    | Disclaimer | Disclaimer|
-    | Privacy    | Website Privacy Policy |
+    | Disclaimer             | Disclaimer             |
+    | Privacy                | Website Privacy Policy |
     | Freedom of Information | Freedom of Information |
     | Copyright              | Copyright              |
     | Accessibility          | Accessibility          |
@@ -22,6 +37,9 @@ Feature: Browsing on the site
   Scenario: Verify the time on the homepage
     Given I access the homepage
     Then I should see the correct UK time
+
+
+
 
 #    @not_started
 #  Scenario: Browsing All you need to know.. homepage collections

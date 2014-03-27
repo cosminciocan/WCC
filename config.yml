@@ -1,6 +1,6 @@
 defaults: &execution_defaults
 
-  default_config: UAT
+  default_config: Alpha
 
 Alpha:
   <<: *execution_defaults

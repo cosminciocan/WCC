@@ -28,6 +28,7 @@ Then(/^I check if a test "([^"]*)" is created, and if not, I create one$/) do |c
       case content_type
         when "Standard Smart Answer" then visit(CreateContentPage).smart_answer
         when "News Feed" then visit(CreateContentPage).news_feed
+        when "WebForm" then visit(CreateContentPage).web_form
       end
       on_page(CreateContentPage).create_content(content_type)
     end

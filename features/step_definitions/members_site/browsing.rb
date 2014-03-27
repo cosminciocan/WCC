@@ -33,7 +33,6 @@ Then(/^I should see the correct UK time$/) do
   on_page(Homepage).verify_time
 end
 
-
 When(/^I click on the All you need to know about collections$/) do
   on_page(Homepage).browse_collections
 end
@@ -57,4 +56,27 @@ Then(/^I see the other relevant links box$/) do
   on_page(PlanningCollectionPage).third_relevant_link_element.text.should == @forth_item
   on_page(PlanningCollectionPage).fourth_relevant_link_element.text.should == @fifth_item
   on_page(PlanningCollectionPage).fifth_relevant_link_element.text.should == @sixth_item
+end
+
+Then(/^I check that the desktop version of the Feedback button exists$/) do
+  on_page(Homepage).feedback_button_element.exists?.should be_true
+end
+
+And(/^I resize the window to "([^"]*)" per "([^"]*)"$/) do |width, height|
+  on_page(Homepage).browser.window.resize_to(width, height)
+end
+
+Then(/^I check that the mobile version of the Feedback button exists$/) do
+  on_page(Homepage).mobile_feedback_button_element.exists?.should be_true
+end
+
+Then(/^I expand the top navigation bar$/) do
+  on_page(Homepage).expand_top_navigation_bar_element.click
+end
+
+And(/^I check the availability of the menu links$/) do
+  on_page(Homepage).most_searched_link_element.exists?.should be_true
+  on_page(Homepage).useful_information_link_element.exists?.should be_true
+  on_page(Homepage).our_services_link_element.exists?.should be_true
+  on_page(Homepage).westminster_news_link_element.exists?.should be_true
 end
