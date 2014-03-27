@@ -111,6 +111,7 @@ class ReportItPage
     self.preferred_contact_none_element.click
     browser.text.include?("First Name").should == false
     self.submit_report?.should == true
+    #self.submit_report
   end
 
   def check_field_validations_email

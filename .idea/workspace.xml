@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bfcb18-dee3-4441-b8e4-aaceaa7cb2e6" name="Default" comment="ck">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/members_site/libraries_form.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/members_site/libraries_form.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/pages/members_site/libraries_form_page.rb" />
       <change type="DELETED" beforePath="D:\WORK\Westminster\Automation\WCC\results\screenshots\39371340.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/members_site/browsing.feature" afterPath="$PROJECT_DIR$/features/members_site/browsing.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/members_site/browsing.rb" afterPath="$PROJECT_DIR$/features/step_definitions/members_site/browsing.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/admin_site/create_content.feature" afterPath="$PROJECT_DIR$/features/admin_site/create_content.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/admin_site/create_content_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb" afterPath="$PROJECT_DIR$/features/step_definitions/admin_site/creating_content.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/members_site/homepage.rb" afterPath="$PROJECT_DIR$/features/support/pages/members_site/homepage.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/members_site/pre_application_advice.feature" afterPath="$PROJECT_DIR$/features/members_site/pre_application_advice.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intel.iws" />
@@ -74,10 +66,28 @@
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="browsing.feature" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="report_it.feature" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="36" column="36" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.6754967" vertical-offset="408" max-vertical-offset="714">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="browsing.feature" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="14" column="21" selection-start="519" selection-end="519" vertical-scroll-proportion="0.45033112" vertical-offset="102" max-vertical-offset="1020">
+                    <state line="14" column="21" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1020">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="search_functionality.feature" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/features/members_site/search_functionality.feature">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="10" column="80" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="595">
                       <folding />
                     </state>
                   </provider>
@@ -92,6 +102,15 @@
                   </provider>
                 </entry>
               </file>
+              <file leaf-file-name="pre_application_advice.feature" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/features/members_site/pre_application_advice.feature">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="129" column="9" selection-start="5650" selection-end="5650" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2363">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
             </leaf>
           </split-first>
           <split-second>
@@ -100,18 +119,24 @@
                 <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
                   <provider selected="true" editor-type-id="text-editor">
                     <state line="40" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1020">
-                      <folding>
-                        <marker date="1395930986236" expanded="true" signature="1540:1715" placeholder="Scenario: Browsing All you need to know.. homepage collections" />
-                        <marker date="1395930986236" expanded="true" signature="1778:2005" placeholder="Scenario: Check the related links box" />
-                      </folding>
+                      <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="browsing.rb" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="browsing.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/browsing.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="35" column="0" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-0.9189189" vertical-offset="867" max-vertical-offset="1496">
+                    <state line="35" column="0" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1496">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="report_it.rb" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="6" column="31" selection-start="199" selection-end="199" vertical-scroll-proportion="0.3445946" vertical-offset="0" max-vertical-offset="1190">
                       <folding />
                     </state>
                   </provider>
@@ -135,10 +160,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="homepage.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="homepage.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/homepage.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="64" selection-start="679" selection-end="679" vertical-scroll-proportion="0.41195476" vertical-offset="0" max-vertical-offset="1190">
+                <state line="15" column="64" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="report_it_page.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="91" column="52" selection-start="4934" selection-end="4934" vertical-scroll-proportion="0.60743135" vertical-offset="1171" max-vertical-offset="2414">
                   <folding />
                 </state>
               </provider>
@@ -172,7 +206,6 @@
         <option value="$PROJECT_DIR$/features/support/pages/members_site/news_page.rb" />
         <option value="$PROJECT_DIR$/features/members_site/report_it.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/members_site/planning_collection_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/admin_site/collections_page.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
@@ -188,6 +221,8 @@
         <option value="$PROJECT_DIR$/features/members_site/browsing.feature" />
         <option value="$PROJECT_DIR$/features/support/pages/members_site/homepage.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/members_site/browsing.rb" />
+        <option value="$PROJECT_DIR$/features/members_site/pre_application_advice.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb" />
       </list>
     </option>
   </component>
@@ -819,19 +854,24 @@
       <created>1395836487152</created>
       <updated>1395836487152</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added tests">
+      <created>1395931313665</created>
+      <updated>1395931313665</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-320" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.73535794" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18489583" sideWeight="0.73535794" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18489583" sideWeight="0.73535794" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -841,7 +881,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -868,7 +907,8 @@
     <MESSAGE value="Added more tests" />
     <MESSAGE value="Fixed Report It" />
     <MESSAGE value="Project Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Update" />
+    <MESSAGE value="Added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -891,10 +931,7 @@
     <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="42" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="697">
-          <folding>
-            <marker date="1395930986236" expanded="true" signature="1540:1715" placeholder="Scenario: Browsing All you need to know.. homepage collections" />
-            <marker date="1395930986236" expanded="true" signature="1778:2005" placeholder="Scenario: Check the related links box" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -936,10 +973,7 @@
     <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="86" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="629">
-          <folding>
-            <marker date="1395930986236" expanded="true" signature="1540:1715" placeholder="Scenario: Browsing All you need to know.. homepage collections" />
-            <marker date="1395930986236" expanded="true" signature="1778:2005" placeholder="Scenario: Check the related links box" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -974,10 +1008,7 @@
     <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="67" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="510">
-          <folding>
-            <marker date="1395930986236" expanded="true" signature="1540:1715" placeholder="Scenario: Browsing All you need to know.. homepage collections" />
-            <marker date="1395930986236" expanded="true" signature="1778:2005" placeholder="Scenario: Check the related links box" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,37 +1116,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="48" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.69186044" vertical-offset="357" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/search_functionality.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="80" selection-start="417" selection-end="417" vertical-scroll-proportion="0.49418604" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/members_site/newsfeed.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="86" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/pre_application_advice.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="75" selection-start="1392" selection-end="1496" vertical-scroll-proportion="0.64244187" vertical-offset="357" max-vertical-offset="2363">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="35" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
@@ -1151,13 +1154,6 @@
     <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/pre_application_advice_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="7" selection-start="396" selection-end="396" vertical-scroll-proportion="0.027823241" vertical-offset="153" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
           <folding />
         </state>
       </provider>
@@ -1211,26 +1207,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1020">
-          <folding>
-            <marker date="1395930986236" expanded="true" signature="1540:1715" placeholder="Scenario: Browsing All you need to know.. homepage collections" />
-            <marker date="1395930986236" expanded="true" signature="1778:2005" placeholder="Scenario: Check the related links box" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/homepage.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="64" selection-start="679" selection-end="679" vertical-scroll-proportion="0.41195476" vertical-offset="0" max-vertical-offset="1190">
+        <state line="15" column="64" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/browsing.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-0.9189189" vertical-offset="867" max-vertical-offset="1496">
+        <state line="35" column="0" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/members_site/pre_application_advice.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="9" selection-start="5650" selection-end="5650" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/members_site/search_functionality.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="80" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/members_site/browsing.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/members_site/report_it.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="199" selection-end="199" vertical-scroll-proportion="0.3445946" vertical-offset="0" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/members_site/report_it_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="52" selection-start="4934" selection-end="4934" vertical-scroll-proportion="0.60743135" vertical-offset="1171" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/members_site/report_it.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="36" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.6754967" vertical-offset="408" max-vertical-offset="714">
           <folding />
         </state>
       </provider>

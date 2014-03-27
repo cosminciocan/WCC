@@ -11,8 +11,8 @@ Feature: This feature contains tests involving the Pre-Application advice functi
     And I proceed to the final step
     And I fill in all the contact details
     And I select to pay on behalf of the client
-    When I submit my application
-    Then A confirmation page is displayed
+  #  When I submit my application
+  #  Then A confirmation page is displayed
 
   Scenario: Cheking the mandatory fields validation on step 1
     Given I access the homepage
@@ -111,8 +111,8 @@ Feature: This feature contains tests involving the Pre-Application advice functi
     And I select to pay on behalf of the client
     And The billing details are not the same as contact details
     When I fill in all the billing details
-    And I submit my application
-    Then A confirmation page is displayed
+#    And I submit my application
+#    Then A confirmation page is displayed
 
   Scenario: Submitting a pre-planning advice form (Household), with client billing details
     Given I access the homepage
@@ -126,8 +126,8 @@ Feature: This feature contains tests involving the Pre-Application advice functi
     And I fill in all the contact details
     And I select not to pay on behalf of the client
     Then I fill in all the client billing details
-    And I submit my application
-    Then A confirmation page is displayed
+#    And I submit my application
+#    Then A confirmation page is displayed
 
 
 
